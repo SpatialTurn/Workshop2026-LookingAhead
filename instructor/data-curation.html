@@ -315,9 +315,9 @@
       </div>
     </nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Additional Readings</h1>
-        <p>Last updated on 2026-06-25 |
+        <p>Last updated on 2026-10-17 |
 
-        <a href="https://github.com/carpentries/workbench-template-md/edit/main/episodes/data-curation.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
+        <a href="https://github.com/SpatialTurn/DataCuration/edit/main/episodes/data-curation.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
 
 
@@ -363,8 +363,8 @@ tools (Globus) to publish and share data</li>
 <section><h2 class="section-heading" id="what-is-data-curation">What Is Data Curation?<a class="anchor" aria-label="anchor" href="#what-is-data-curation"></a></h2>
 <hr class="half-width"><p><strong>Data curation</strong> is the process of organizing,
 documenting, preserving, and maintaining data so that it remains useful,
-understandable, and reusable over time. It is not just storing files —
-it is making data usable for future analysis, whether by you, your
+understandable, and reusable over time. It is not just storing files: it
+is making data usable for future analysis, whether by you, your
 collaborators, or researchers you have never met.</p>
 <p>Poorly curated data leads to lost files, confusing variable names,
 missing context, and irreproducible results. Well-curated data saves
@@ -372,39 +372,39 @@ time, prevents mistakes, enables collaboration, and makes research
 reproducible.</p>
 <p>Consider the difference:</p>
 <ul><li>
-<code>final_data_v2_revised_REAL_final.csv</code> — tells you almost
+<code>final_data_v2_revised_REAL_final.csv</code>: tells you almost
 nothing</li>
 <li>
-<code>soil_moisture_2025_stationA_clean.csv</code> — tells you the
+<code>soil_moisture_2025_stationA_clean.csv</code>: tells you the
 variable, year, location, and processing stage</li>
 </ul><p>Curation begins when data is created, not after the project ends.</p>
 <hr></section><section><h2 class="section-heading" id="the-data-curation-lifecycle">The Data Curation Lifecycle<a class="anchor" aria-label="anchor" href="#the-data-curation-lifecycle"></a></h2>
 <hr class="half-width"><p>Data curation is not a one-time task. It happens throughout the life
 of a dataset:</p>
 <ol style="list-style-type: decimal"><li>
-<strong>Create / Collect</strong> — data is generated from
+<strong>Create / Collect</strong>: data is generated from
 instruments, surveys, fieldwork, APIs, or computational models</li>
 <li>
-<strong>Organize</strong> — files are structured into a logical
+<strong>Organize</strong>: files are structured into a logical
 folder hierarchy</li>
 <li>
-<strong>Document</strong> — metadata and README files are written to
+<strong>Document</strong>: metadata and README files are written to
 explain what the data contains</li>
 <li>
-<strong>Store / Backup</strong> — data is saved redundantly across
+<strong>Store / Backup</strong>: data is saved redundantly across
 multiple locations</li>
 <li>
-<strong>Preserve</strong> — data is archived in stable, open formats
+<strong>Preserve</strong>: data is archived in stable, open formats
 for long-term access</li>
 <li>
-<strong>Share / Publish</strong> — data is deposited in a repository
+<strong>Share / Publish</strong>: data is deposited in a repository
 and assigned a permanent identifier</li>
 <li>
-<strong>Reuse / Reanalyze</strong> — others discover, cite, and
-build on the data</li>
+<strong>Reuse / Reanalyze</strong>: others discover, cite, and build
+on the data</li>
 </ol><p>For small projects this cycle may happen on a single laptop. For
 large collaborative projects it may span multiple institutions,
-countries, and automated pipelines. The principles are the same — the
+countries, and automated pipelines. The principles are the same: the
 infrastructure scales.</p>
 <hr></section><section><h2 class="section-heading" id="practical-data-organization">Practical Data Organization<a class="anchor" aria-label="anchor" href="#practical-data-organization"></a></h2>
 <hr class="half-width"><div class="section level3">
@@ -426,9 +426,9 @@ the full workflow from the original data.</p>
 <p>Good file names are descriptive, consistent, and
 machine-readable:</p>
 <ul><li>
-<code>river_discharge_monthly_2024.csv</code> — clear</li>
+<code>river_discharge_monthly_2024.csv</code>: clear</li>
 <li>
-<code>data_new_latest2.csv</code> — unclear</li>
+<code>data_new_latest2.csv</code>: unclear</li>
 </ul><p>Avoid spaces, special characters, and ambiguous version labels. Use
 dates in <code>YYYY-MM-DD</code> format so files sort
 chronologically.</p>
@@ -449,7 +449,7 @@ is what makes it usable or useless.</p>
 </div>
 <div class="section level3">
 <h3 id="metadata">Metadata<a class="anchor" aria-label="anchor" href="#metadata"></a></h3>
-<p>Metadata is “data about data” — structured information that describes
+<p>Metadata is “data about data”: structured information that describes
 what a dataset contains, how it was collected, and what the fields mean.
 Good metadata answers: who created it, when, with what instruments, and
 what do the columns represent?</p>
@@ -476,11 +476,11 @@ software is available in the future.</p>
 <hr class="half-width"><p>Track changes to your data and code over time. Two complementary
 approaches:</p>
 <ul><li>
-<strong>Version numbering</strong> for data files —
+<strong>Version numbering</strong> for data files:
 <code>survey_cleaned_v1.csv</code>, <code>survey_cleaned_v2.csv</code>,
 with a changelog documenting what changed between versions</li>
 <li>
-<strong>Git / GitHub</strong> for code and documentation — tracks
+<strong>Git / GitHub</strong> for code and documentation: tracks
 every change with a full history</li>
 </ul><div id="never-overwrite-raw-data" class="callout">
 <div class="callout-square">
@@ -511,18 +511,18 @@ service. If any one fails, you still have two copies.</p>
 <hr class="half-width"><p>The FAIR framework is the widely adopted standard for research data
 management. Curated data should be:</p>
 <ul><li>
-<strong>Findable</strong> — stored in a searchable repository with a
+<strong>Findable</strong>: stored in a searchable repository with a
 persistent identifier (like a DOI)</li>
 <li>
-<strong>Accessible</strong> — available to authorized users through
+<strong>Accessible</strong>: available to authorized users through
 standard protocols</li>
 <li>
-<strong>Interoperable</strong> — uses open formats and standard
+<strong>Interoperable</strong>: uses open formats and standard
 vocabularies so it works with other tools and datasets</li>
 <li>
-<strong>Reusable</strong> — documented thoroughly enough that
-someone else can understand and use it without contacting you</li>
-</ul><p>FAIR does not mean all data must be public — it means data should be
+<strong>Reusable</strong>: documented thoroughly enough that someone
+else can understand and use it without contacting you</li>
+</ul><p>FAIR does not mean all data must be public: it means data should be
 <em>as open as possible and as closed as necessary</em>, with clear
 access conditions.</p>
 <hr></section><section><h2 class="section-heading" id="publishing-data-institutional-repositories">Publishing Data: Institutional Repositories<a class="anchor" aria-label="anchor" href="#publishing-data-institutional-repositories"></a></h2>
@@ -545,10 +545,10 @@ beyond the original project. Many universities and funding agencies now
 require a data management plan that includes repository deposit.</p>
 <hr></div>
 </section><section><h2 class="section-heading" id="sharing-large-datasets-globus">Sharing Large Datasets: Globus<a class="anchor" aria-label="anchor" href="#sharing-large-datasets-globus"></a></h2>
-<hr class="half-width"><p>Some datasets — satellite imagery archives, climate model
-simulations, high-resolution remote sensing data — are too large for
-email, USB drives, or standard cloud sharing. These require dedicated
-transfer infrastructure.</p>
+<hr class="half-width"><p>Some datasets (satellite imagery archives, climate model simulations,
+high-resolution remote sensing data) are too large for email, USB
+drives, or standard cloud sharing. These require dedicated transfer
+infrastructure.</p>
 <div class="section level3">
 <h3 id="what-is-globus">What Is Globus?<a class="anchor" aria-label="anchor" href="#what-is-globus"></a></h3>
 <p><a href="https://www.globus.org/" class="external-link">Globus</a> is a research data
@@ -571,7 +571,7 @@ sharing:</p>
 guidelines</li>
 <li>Respect licensing restrictions on data you did not collect
 yourself</li>
-<li>Consider aggregation levels carefully for geospatial data —
+<li>Consider aggregation levels carefully for geospatial data:
 fine-grained location data can expose individuals even when names are
 removed</li>
 </ul><hr><div id="exercise-curate-a-sample-project" class="callout challenge">
@@ -587,8 +587,9 @@ urban heat islands in your city. Include:</p>
 <ol style="list-style-type: decimal"><li>A <code>data_raw/</code> folder (what files would go here?)</li>
 <li>A <code>data_clean/</code> folder</li>
 <li>A <code>scripts/</code> folder</li>
-<li>A <code>documentation/</code> folder containing a brief README (3–5
-sentences describing the project, data sources, and key variables)</li>
+<li>A <code>documentation/</code> folder containing a brief README (3 to
+5 sentences describing the project, data sources, and key
+variables)</li>
 </ol><p>If time allows, discuss with a partner: what metadata would someone
 need to reuse your dataset five years from now?</p>
 </div>
@@ -603,8 +604,8 @@ need to reuse your dataset five years from now?</p>
 <div class="callout-content">
 <ul><li>Data curation is an ongoing process that begins when data is
 created, not after a project ends.</li>
-<li>Practical habits — clear folder structures, descriptive file names,
-README files, and open formats — are the foundation of good
+<li>Practical habits (clear folder structures, descriptive file names,
+README files, and open formats) are the foundation of good
 curation.</li>
 <li>The FAIR principles (Findable, Accessible, Interoperable, Reusable)
 are the standard framework for research data management.</li>
@@ -616,9 +617,9 @@ high-volume transfers reliably.</li>
 </div>
 </div>
 <!--
-Place links that you need to refer to multiple times across pages here. Delete
-any links that you are not going to use.
- -->
+Links listed here can be reused across pages as [text][name].
+Add reference-style links below as needed.
+-->
 </section></div> <!-- / div.lesson-content -->
     </main><!-- / main#main-content.main-content --><nav class="bottom-pagination mx-md-4" aria-label="Previous and Next Chapter Bottom"><div class="d-block d-sm-block d-md-none">
         <a class="chapter-link" href="../instructor/carpentry.html"><i aria-hidden="true" class="small-arrow" data-feather="arrow-left"></i>Previous</a>
@@ -643,11 +644,11 @@ any links that you are not going to use.
         <p>This lesson is subject to the <a href="CODE_OF_CONDUCT.html">Code of Conduct</a></p>
         <p>
 
-        <a href="https://github.com/carpentries/workbench-template-md/edit/main/episodes/data-curation.md" class="external-link">Edit on GitHub</a>
+        <a href="https://github.com/SpatialTurn/DataCuration/edit/main/episodes/data-curation.md" class="external-link">Edit on GitHub</a>
 
 	
-        | <a href="https://github.com/carpentries/workbench-template-md/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
-        | <a href="https://github.com/carpentries/workbench-template-md/" class="external-link">Source</a></p>
+        | <a href="https://github.com/SpatialTurn/DataCuration/blob/main/CONTRIBUTING.md" class="external-link">Contributing</a>
+        | <a href="https://github.com/SpatialTurn/DataCuration/" class="external-link">Source</a></p>
         <p>
         <a href="../citation.html">Cite</a>
         | <a href="mailto:ilindsay@purdue.edu">Contact</a> | <a href="https://carpentries.org/about/" class="external-link">About</a></p>
@@ -669,18 +670,18 @@ any links that you are not going to use.
     {
   "@context": "https://schema.org",
   "@type": "LearningResource",
-  "@id": "https://carpentries.github.io/workbench-template-md/instructor/data-curation.html",
+  "@id": "https://SpatialTurn.github.io/DataCuration/instructor/data-curation.html",
   "inLanguage": "en",
   "dct:conformsTo": "https://bioschemas.org/profiles/LearningResource/1.0-RELEASE",
   "description": "A Carpentries Lesson teaching foundational data and coding skills to researchers worldwide",
-  "keywords": "discussion, curation, lesson, The Carpentries",
+  "keywords": "teaching modules, Carpentries Workbench, Markdown, GitHub Pages, data curation, FAIR data, metadata",
   "name": "Additional Readings",
   "creativeWorkStatus": "active",
-  "url": "https://carpentries.github.io/workbench-template-md/instructor/data-curation.html",
-  "identifier": "https://carpentries.github.io/workbench-template-md/instructor/data-curation.html",
+  "url": "https://SpatialTurn.github.io/DataCuration/instructor/data-curation.html",
+  "identifier": "https://SpatialTurn.github.io/DataCuration/instructor/data-curation.html",
   "dateCreated": "2026-06-25",
-  "dateModified": "2026-06-25",
-  "datePublished": "2026-10-13"
+  "dateModified": "2026-10-17",
+  "datePublished": "2026-10-17"
 }
 
   </script><script>
