@@ -25,7 +25,7 @@ exercises: 25
 
 ## Introduction
 
-This morning you designed a geospatial teaching module — you identified a spatial problem, the data it requires, and where to find that data. Now you will build it as a Carpentries-style lesson website, hosted for free on GitHub Pages.
+This morning you designed a geospatial teaching module: you identified a spatial problem, the data it requires, and where to find that data. Now you will build it as a Carpentries-style lesson website, hosted for free on GitHub Pages.
 
 We will start with Markdown basics (the language Carpentries lessons are written in), then walk through creating and customizing a lesson repository.
 
@@ -39,7 +39,7 @@ We will start with Markdown basics (the language Carpentries lessons are written
 
 ## Part 1: Markdown Basics
 
-All Carpentries lesson content is written in **Markdown** — a lightweight text format that converts to HTML automatically. You do not need to know HTML. Markdown is designed to be readable as plain text and simple to learn.
+All Carpentries lesson content is written in **Markdown**: a lightweight text format that converts to HTML automatically. You do not need to know HTML. Markdown is designed to be readable as plain text and simple to learn.
 
 ### Headings
 
@@ -152,7 +152,7 @@ The Carpentries provides an official template called the **Workbench** that gene
 
 ### Step 1: Use the Template
 
-**Important:** Do **not** fork the repository — use GitHub's "Use this template" feature instead.
+**Important:** Do **not** fork the repository: use GitHub's "Use this template" feature instead.
 
 1. Go to the Carpentries Workbench template:
    [https://github.com/carpentries/workbench-template-md](https://github.com/carpentries/workbench-template-md)
@@ -161,7 +161,7 @@ The Carpentries provides an official template called the **Workbench** that gene
 
 3. Fill in the details:
    - **Owner:** your GitHub username or organization
-   - **Repository name:** use the Carpentries naming convention — `YYYY-MM-DD-sitename-topicname`
+   - **Repository name:** use the Carpentries naming convention: `YYYY-MM-DD-sitename-topicname`
      (e.g., `2026-06-30-purdue-geospatial`)
    - Keep **Include all the branches** on 
    - **Visibility:** **Public** (required for GitHub Pages to work)
@@ -182,7 +182,7 @@ It may take a couple of minutes for the first build to complete.
 
 ### Tip
 
-If you forget the naming convention, your site will still work — but using the `YYYY-MM-DD-sitename` format helps The Carpentries community index and discover your workshop.
+If you forget the naming convention, your site will still work, but using the `YYYY-MM-DD-sitename` format helps The Carpentries community index and discover your workshop.
 
 ::::::::::::::::::::::::::::::::::::::::::::::::
 
@@ -207,7 +207,7 @@ The workflow is:
 
 1. **Edit** files in your local folder using any text editor (VS Code, Notepad++, or even plain Notepad)
 2. **Save** the files
-3. Open **GitHub Desktop** — you will see your changes listed
+3. Open **GitHub Desktop**: you will see your changes listed
 4. Write a short **summary** describing what you changed (this is required)
 5. Click **Commit to main**
 6. Click **Push origin** in the top right to send your changes to GitHub
@@ -256,11 +256,11 @@ episodes:
 
 ### The `episodes/` Folder
 
-Each `.md` file in this folder becomes one page (episode) in your lesson website. The file you worked with throughout this workshop — with its YAML header, questions, objectives, content, and keypoints — is exactly what goes here.
+Each `.md` file in this folder becomes one page (episode) in your lesson website. The file you worked with throughout this workshop (with its YAML header, questions, objectives, content, and keypoints) is exactly what goes here.
 
 ### The `learners/setup.md` File
 
-This is where setup instructions for students go — software to install, accounts to create, and data to download. The setup page we built on Day 1 of this workshop is an example of this file.
+This is where setup instructions for students go: software to install, accounts to create, and data to download. The setup page we built on Day 1 of this workshop is an example of this file.
 
 ---
 
@@ -295,7 +295,7 @@ exercises: 15
 
 ## Section 1
 
-Your content here — explanations, instructions, code blocks, images.
+Your content here: explanations, instructions, code blocks, images.
 
 :::::::::::::::::::::::::::::::::::: challenge
 
@@ -328,7 +328,7 @@ episodes:
 1. Save both files
 2. In GitHub Desktop, write a commit summary (e.g., "Add urban heat episode")
 3. Click **Commit to main**, then **Push origin**
-4. Wait a few minutes, then check your lesson website — your new episode should appear in the navigation
+4. Wait a few minutes, then check your lesson website: your new episode should appear in the navigation
 
 :::::::::::::::::::::::::::::::::::: challenge
 
@@ -359,7 +359,7 @@ You can also use the template we created at [github.com/SpatialTurn/carpentrytem
 
 ::::::::::::::::::::::::::::::::::::: keypoints
 
-- Markdown is the language used to write Carpentries lesson content — it is plain text with simple formatting rules.
+- Markdown is the language used to write Carpentries lesson content: it is plain text with simple formatting rules.
 - The Carpentries Workbench template generates a professional lesson website automatically from your Markdown files.
 - Each episode is a single `.md` file in the `episodes/` folder; the `config.yaml` file controls which episodes appear and in what order.
 - GitHub Desktop lets you edit lesson files locally and push changes without using the command line.

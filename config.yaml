@@ -18,29 +18,29 @@ carpentry: 'incubator'
 carpentry_description: 'Geospatial data types, metadata standards, data management across disciplines, and best practices for sharing and preserving spatial datasets'
 
 # Overall title for pages.
-title: 'Looking Ahead' # FIXME
+title: 'Looking Ahead'
 
 # Date the lesson was created (YYYY-MM-DD, this is empty by default)
-created: 2026-06-25 # FIXME
+created: '2026-06-25'
 
 # Comma-separated list of keywords for the lesson
-keywords: 'discussion, curation, lesson, The Carpentries' # FIXME
+keywords: 'teaching modules, Carpentries Workbench, Markdown, GitHub Pages, data curation, FAIR data, metadata'
 
 # Life cycle stage of the lesson
 # possible values: pre-alpha, alpha, beta, stable
-life_cycle: 'alpha' # FIXME
+life_cycle: 'alpha'
 
 # License of the lesson
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries/workbench-template-md' # FIXME
+source: 'https://github.com/SpatialTurn/DataCuration'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'ilindsay@purdue.edu' # FIXME
+contact: 'ilindsay@purdue.edu'
 
 # Navigation ------------------------------------------------
 #

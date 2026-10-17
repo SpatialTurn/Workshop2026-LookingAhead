@@ -21,24 +21,24 @@ exercises: 0
 
 ## What You Need for Day 2
 
-Day 2 focuses on designing and building your own teaching modules. The requirements are lighter than Day 1 — no GIS software or data accounts needed.
+Day 2 focuses on designing and building your own teaching modules. The requirements are lighter than Day 1: no GIS software or data accounts needed.
 
 ### Software
 
-- **GitHub Desktop** — for cloning and pushing lesson repositories without using the command line → [Download here](https://desktop.github.com/)
-- **A text editor** — for editing Markdown files locally. Any of the following will work:
-  - [VS Code](https://code.visualstudio.com/) (recommended — has built-in Markdown preview)
+- **GitHub Desktop**: for cloning and pushing lesson repositories without using the command line → [Download here](https://desktop.github.com/)
+- **A text editor**: for editing Markdown files locally. Any of the following will work:
+  - [VS Code](https://code.visualstudio.com/) (recommended, it has built-in Markdown preview)
   - [Notepad++](https://notepad-plus-plus.org/) (Windows)
   - TextEdit (Mac) or any plain text editor
 
 ### Accounts
 
-- **GitHub** — you will create a lesson repository and host it on GitHub Pages → [Sign up here](https://github.com/join) if you do not have an account
+- **GitHub**: you will create a lesson repository and host it on GitHub Pages → [Sign up here](https://github.com/join) if you do not have an account
 
 ### Preparation
 
 - **Morning session (9:15 AM):** Think about a course, lab, or project you teach (or plan to teach) that could benefit from a geospatial component. You will work in small groups to outline a module, so having a specific class in mind will help.
-- **Afternoon session (10:45 AM):** If you are new to Markdown, a quick glance at [markdownguide.org/basic-syntax](https://www.markdownguide.org/basic-syntax/) beforehand is helpful but not required — we will cover the basics during the session.
+- **Afternoon session (10:45 AM):** If you are new to Markdown, a quick glance at [markdownguide.org/basic-syntax](https://www.markdownguide.org/basic-syntax/) beforehand is helpful but not required: we will cover the basics during the session.
 
 ---
 
